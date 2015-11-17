@@ -49,7 +49,7 @@ Here's a walkthrough of implemented user stories:
 
 
 
-<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/kshantaramanUFL/SimpleToDo/raw/master/app/ToDo_App.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 
