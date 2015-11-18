@@ -25,6 +25,7 @@ public class EditItemActivity extends AppCompatActivity {
         itemPosition = getIntent().getIntExtra("pos",-1);
         edt = (EditText) findViewById(R.id.editText);
         edt.setText(currentTask);
+        edt.setSelection(edt.getText().length());
 
 
         saveButton = (Button) findViewById(R.id.editSaveButton);
@@ -37,7 +38,7 @@ public class EditItemActivity extends AppCompatActivity {
 
         returnToMainIntent.putExtra("editedTask",editedTask);
         returnToMainIntent.putExtra("pos",itemPosition);
-        returnToMainIntent.putExtra("code",200);
+        returnToMainIntent.putExtra("code", 200);
         setResult(RESULT_OK,returnToMainIntent);
         finish();
     }
